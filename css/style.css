@@ -1,3 +1,9 @@
+@import "/css/components/clock.css";
+@import "/css/components/input_box.css";
+@import "/css/components/weather.css";
+@import "/css/components/quote.css";
+
+
 .hidden {
     visibility: hidden;
 }
@@ -15,67 +21,9 @@ ul {
     list-style-type: none;
 }
 
-#clock {
-    font-size: 64px;
-}
-
-/* #todo-form input {
-    width: 500px;
-    height: 30px;
-    background-color: transparent;
-    border: 0px;
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-    text-align: center;
-} */
-
-.input-form-div input {
-    width: 300px;
-    height: 30px;
-    background-color: transparent;
-    border: 0px;
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-    align-items: center;
-    
-}
-.input-form-div input::placeholder {
-    color: aliceblue;
-    text-align: center;
-    
-    font-size: 12px;
-}
-.input-form-div input:focus {
-    color: azure;
-    text-align: center;
-    font-size: 20px;
-    border: 0px;
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-    outline: none;
-}
-
-
-#login-form {
-    padding-top: 250px;
-    padding-left: 50px;
-}
-
-
-#weather {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 45px;
-}
-
 button {
     background-color: transparent;
     border: 0px;
     cursor: pointer;
     color: white;
-}
-
-#quote {
-    padding-top: 150px;
-}
-#quote span:first-child {
-    font-size: 20px;
 }
