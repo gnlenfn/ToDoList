@@ -1,4 +1,4 @@
-const API_KEY = config.key;
+const API_KEY = "12fb640afeeae3162fda024a56165f73";
 
 function onGeoSuccess(position) {
   console.log(position);
