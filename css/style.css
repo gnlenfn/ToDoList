@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     align-items: center;
-    color: azure
+    color: whitesmoke
 }
 
 ul {
@@ -49,12 +49,15 @@ ul {
     font-size: 20px;
     border: 0px;
     border-bottom: 1px solid rgba(255, 255, 255, 1);
+    outline: none;
 }
 
 
 #login-form {
     padding-top: 250px;
+    padding-left: 50px;
 }
+
 
 #weather {
     position: fixed;
@@ -72,4 +75,7 @@ button {
 
 #quote {
     padding-top: 150px;
+}
+#quote span:first-child {
+    font-size: 20px;
 }
