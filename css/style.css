@@ -1,7 +1,7 @@
-@import "/css/components/clock.css";
-@import "/css/components/input_box.css";
-@import "/css/components/weather.css";
-@import "/css/components/quote.css";
+@import "components/clock.css";
+@import "components/input_box.css";
+@import "components/weather.css";
+@import "components/quote.css";
 
 
 .hidden {
@@ -19,6 +19,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding-right: 45px;
 }
 
 button {
